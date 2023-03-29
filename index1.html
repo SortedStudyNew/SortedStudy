@@ -11,6 +11,7 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="index1.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--GOOGLE FONTS-->
@@ -53,11 +54,15 @@
           <li class="nav-item">
             <a class="nav-link text-white px-4" href="#">Contact</a>
           </li>
-          <li class="nav-item px-4 ali" id="login">
-            <a href="login.html" rel="noopener noreferrer" id="btn-login" class="btn btn-warning text-white  ">Login</a>
-          </li>
-          <li class="nav-item px-4 ali" >
-            <a href="login.html" rel="noopener noreferrer" class="btn btn-warning text-white ">SignUp</a>
+          <li class="nav-item dropdown px-4 ">
+            <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="true">
+              <img src="" alt="" class="UserProfile" id="UserProfiles">
+            </a>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item " id="name"></a></li>
+              <li><a class="dropdown-item " id="logout">Logout</a></li>
+            </ul>
           </li>
         </ul>
         <!-- <form class="d-flex" role="search">
@@ -358,6 +363,7 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 
+    <script type="module" src="navbarbtnchange.js"></script>
 </body>
 
 
