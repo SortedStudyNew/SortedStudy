@@ -74,10 +74,10 @@ signInWithPopup(auth, provider)
         localStorage.setItem('email' , user.email)
         localStorage.setItem('photourl' , user.photoURL)
         localStorage.setItem('emailVerified' ,user.emailVerified)
-      window.location.replace('http://127.0.0.1:5501/index1.html');
+      window.location.replace('https://sortedstudynew.github.io/SortedStudy/index1.html');
     }
     else{
-      window.location.replace('http://127.0.0.1:5501/login.html');
+      window.location.replace('https://sortedstudynew.github.io/SortedStudy/login.html');
     }
     // ...
   }).catch((error) => {
