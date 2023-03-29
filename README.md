@@ -1,2 +1,2 @@
 # SortedStudy
-Deploye Link:- https://sortedstudy.github.io/SortedStudy/
+Deploye Link:- https://sortedstudynew.github.io/SortedStudy/
