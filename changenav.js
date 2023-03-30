@@ -20,6 +20,8 @@ if(localStorage.getItem('emailVerified')){
   const Username = document.getElementById('name')
  UserProfile.src=`${localStorage.getItem('photourl')}`
  Username.innerHTML=`${localStorage.getItem('name')}`
+ const home = document.getElementById('home')
+ home.href = 'index1.html'
 }
 const logout = document.getElementById('logout')
 logout.addEventListener('click',(e)=>{
