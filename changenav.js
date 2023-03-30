@@ -4,6 +4,7 @@ if(localStorage.getItem('emailVerified')){
     const signup = document.getElementById('singup')
     signup.style.display='none'
     const placephoto = document.getElementById('logined')
+    placephoto.classList.remove('btn-warning')
     console.log(placephoto)
     placephoto.classList.remove('ali')
     placephoto.classList.add('dropdown')
