@@ -721,6 +721,7 @@ ul {
   .contact-form input, .contact-form textarea {
     padding: 10px;
     border: none;
+    width: auto;
     border-radius: 5px;
     margin-bottom: 20px;
   }
@@ -747,3 +748,9 @@ ul {
     transition: transform 0.3s ease-in-out;
   }
   
+  @media screen and (min-width: 986px) {
+    .contact-form{
+    padding-left: 153px;
+    padding-right: 153px;
+    }
+  }
